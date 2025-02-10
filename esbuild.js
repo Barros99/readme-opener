@@ -5,7 +5,7 @@ const baseConfig = {
   entryPoints: ['./src/extension.ts'],
   external: ['vscode'],
   format: 'cjs',
-  outfile: 'dist/extension.js',
+  outfile: './dist/extension.js',
   platform: 'node',
 };
 
